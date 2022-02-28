@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Shizuru&family=Smooch+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -185,6 +186,23 @@ body {
   flex-wrap: wrap;
 }
 
+.contenedorMains {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.contenedorCate {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 900px;
+}
+
 .contP1 {
   width: 100%;
   text-align: center;
@@ -238,6 +256,48 @@ footer {
 
 .anchocompleto {
   width: 100%;
+}
+
+.titulocumple {
+  text-align: center;
+  color: blueviolet;
+}
+
+.categor, .categoria-cat3, .categoria-cat2, .categoria-cat1 {
+  height: 300px;
+  color: white;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.categoria-cat1 {
+  text-align: center;
+  font-family: "Smooch Sans";
+  background-color: silver;
+}
+.categoria-cat1 h2 {
+  line-height: 300px;
+  font-size: 80px;
+}
+
+.categoria-cat2 {
+  text-align: center;
+  font-family: "Shizuru";
+  background-color: gold;
+}
+.categoria-cat2 h2 {
+  line-height: 300px;
+  font-size: 80px;
+}
+
+.categoria-cat3 {
+  text-align: center;
+  font-family: "BhuTuka Expanded One";
+  background-color: dodgerblue;
+}
+.categoria-cat3 h2 {
+  line-height: 300px;
+  font-size: 80px;
 }
 
 @keyframes crecimientocontinuo {
