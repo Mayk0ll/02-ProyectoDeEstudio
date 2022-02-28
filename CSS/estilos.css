@@ -146,13 +146,11 @@ body {
 }
 
 .carousel-inner {
-  height: 500px;
   text-align: center;
   line-height: 100%;
 }
 
 .carousel-item img {
-  height: 500px;
   width: 80%;
 }
 
