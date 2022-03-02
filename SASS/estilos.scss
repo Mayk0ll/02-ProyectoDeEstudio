@@ -151,6 +151,7 @@ body{
     line-height: 100%;
 }
 .carousel-item img{
+
     width: 80%;
 }
 .carousel-indicators{
@@ -230,8 +231,8 @@ body{
     }
 }
 .btn-primary{
-    background-color: white;
-    color:  $color1;
+    background-color: $color1;
+    color:  white;
 
     &:hover{
         background-color: $color3;

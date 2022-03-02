@@ -231,8 +231,8 @@ body {
 }
 
 .btn-primary {
-  background-color: white;
-  color: #124a4d;
+  background-color: #124a4d;
+  color: white;
 }
 .btn-primary:hover {
   background-color: #11c9ee;
